@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+/*
+#464655 Outer Space
+#A191A5 Rose Quartz
+#D7CDCC Light Gray
+#D5CFE1 Languid Lavender
+#3E3C5F Deep Koamaru
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    max-width: auto;
+}
+
+.navbar {
+    background-color: #3e3c5f;
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    transition: top 0.5s;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vmax;
+    font-weight: 100;
+    color: #ccc;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-brand:hover {
+    color: #d5cfe1;
+}
+
+.nav {
+    margin: 2.5vh 2vw 0 0;
+}
+
+.nav>li {
+    padding: 0 1vw 0 1vw;
+}
+
+.nav>li>.nav-link {
+    color: #d7cdcc;
+    padding: 0 0 15px 0;
+}
+
+.nav>li>a.nav-link:hover {
+    color: #ccc;
+    border-bottom: 2px solid #d7cdcc;
+    padding: 0;
+}
+
+.nav>li>.nav-link:active {
+    color: #ccc;
+    border-bottom: 2px solid #d7cdcc;
+    padding: 0;
+}
+
+#home {
+    background: url('/img/beautiful-calm-clouds-206359.jpg') no-repeat center center fixed;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 7vw;
+    color: #ccc;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    /* mix-blend-mode: color-burn; */
+    text-transform: uppercase;
+}
+
+#home h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 2.3vw;
+    color: #ccc;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    text-transform: lowercase;
+    letter-spacing: .75vw;
+}
+
+#home h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.75vw;
+    color: #ccc;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    text-transform: lowercase;
+    letter-spacing: .75vw;
+}
+
+#home .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home a.action {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    color: #ccc;
+    background-color: rgba(0, 0, 0, .65);
+    margin-top: 2vh;
+}
+
+#home a.action:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    color: #d5cfe1;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#about {
+    background: url('/img/') no-repeat center center;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .container {
+    max-width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 75%, 0.8);
+    padding: 12vh 10vw 5vh 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#about img#self {
+    width: 100%;
+    border: 2px solid #464655;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+#about>.container>.row>.text-left>h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(1.3vw + 1.3vh + .85vmin);
+    color: #3e3c5f;
+}
+
+#about>.container>.row>.text-left>h2,
+#about>.container>.row>.text-right>h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(1vw + 1vh + .85vmin);
+    color: #464655;
+}
+
+.socmed a {
+    color: #464655;
+    margin: 0 1vw;
+}
+
+.socmed a:first-child {
+    margin: 0 1vw 0 0;
+}
+
+.socmed a:hover {
+    color: #11233e;
+}
+
+#about p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(.75vw + .75vh + .25vmin);
+}
+
+#about .mission {
+    margin: 3vh 0 0 0;
+}
+
+#projects {
+    background: url('/img/flower.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding-top: 7vh;
+}
+
+#projects .container {
+    margin: 0px auto;
+    padding: 5vh 0;
+}
+
+#projects h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(3vw + 3vh + .75vmin);
+    color: #ccc;
+    text-transform: lowercase;
+    text-shadow: 3px 3px 5px #000;
+    padding: 3vh 0 0 3vw;
+}
+
+#projects .card {
+    background-color: rgba(211, 211, 211, 0.8);
+}
+
+.panel>.card {
+    width: 15rem;
+}
+
+.card>img {
+    border-bottom: 2px solid #4a7482;
+}
+
+.card>.card-body>h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    color: #4a7482;
+}
+
+.card>.card-body>p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(.6vw + .6vh + .5vmin);
+}
+
+.card>.card-body>a {
+    color: #4a7482;
+    float: right;
+    margin-bottom: 2vh;
+}
+
+.card>.card-body>a:hover {
+    color: #719d92;
+}
+
+#tech {
+    background-color: #a191a5;
+    padding-top: 7vh;
+}
+
+#tech h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(3vw + 3vh + .75vmin);
+    color: #ccc;
+    text-transform: lowercase;
+    text-shadow: 3px 3px 5px #000;
+    padding: 3vh 0 0 3vw;
+}
+
+#tech .container {
+    display: flex;
+    flex-flow: wrap;
+    padding: 3vh 0 0 3vw;
+}
+
+#tech .faicons {
+    color: #3E3C5F;
+    margin: 2vw;
+}
+
+#tech .faicons:hover {
+    color: #ccc;
+}
+
+
+#contact {
+    background-image: url('/img/astronomy-backlit-dark-735651.jpg');
+     background-size: cover;
+     position: relative;
+     width: 100%;
+     height: 100%;
+     display: inline-block;
+     padding-top: 7vh;
+}
+
+#contact .container {
+    color: #ccc;
+    padding: 5vw;
+}
+
+#contact h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(3vw + 3vh + .75vmin);
+    color: #ccc;
+    text-transform: lowercase;
+    text-shadow: 3px 3px 5px #000;
+    padding: 3vh 0 0 3vw;
+}
+
+#contact .socmed {
+    padding-bottom: 3vh;
+}
+
+#contact .socmed a:hover {
+    color: #A191A5;
+}
+
+#contact .btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    color: #ccc;
+    background-color: #A191A5;
+    margin-top: 2vh;
+}
+
+#contact .btn:hover {
+    color: #ccc;
+    background-color: #666;
+}
+
+footer {
+    background: url('') no-repeat center center fixed;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+}
+
+footer .container {
+    background-color: #3e3c5f;
+    height: 100%;
+    max-width: 100vw;
+    padding: 3vh 3vw;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    color: #ccc;
+}
+
+footer p a {
+    font-family: 'Open Sans', sans-serif;
+    color: #A191A5;
+}
+
+footer p a:hover {
+    color: #11233e;
+    text-decoration: none;
+}
+
+footer .footer-tech {
+    color: #ccc;
+}
+
+footer .footer-tech .faicons {
+    margin: 0 1vw;
+}
+
+footer .footer-tech .faicons:nth-child(2) {
+    margin: 0 1vw 0 0;
+}
