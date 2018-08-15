@@ -232,13 +232,13 @@ body {
 }
 
 .card>img {
-    border-bottom: 2px solid #4a7482;
+    border-bottom: 2px solid #a191a5;
 }
 
 .card>.card-body>h5 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2vw;
-    color: #4a7482;
+    color: #3E3C5F;
 }
 
 .card>.card-body>p {
@@ -247,13 +247,13 @@ body {
 }
 
 .card>.card-body>a {
-    color: #4a7482;
+    color: #A191A5;
     float: right;
     margin-bottom: 2vh;
 }
 
 .card>.card-body>a:hover {
-    color: #719d92;
+    color: #ccc;
 }
 
 #tech {
@@ -312,6 +312,7 @@ body {
 
 #contact .socmed {
     padding-bottom: 3vh;
+    color: #3E3C5F;
 }
 
 #contact .socmed a:hover {
@@ -328,7 +329,7 @@ body {
 
 #contact .btn:hover {
     color: #ccc;
-    background-color: #666;
+    background-color: #3E3C5F;
 }
 
 footer {
