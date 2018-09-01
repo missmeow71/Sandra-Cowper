@@ -231,6 +231,12 @@ body {
     width: 15rem;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
 .card>img {
     border-bottom: 2px solid #a191a5;
 }
@@ -249,7 +255,7 @@ body {
 .card>.card-body>a {
     color: #A191A5;
     float: right;
-    margin-bottom: 2vh;
+    margin-bottom: .5vh;
 }
 
 .card>.card-body>a:hover {

@@ -1,5 +1,5 @@
 # Sandra-Cowper
-Web Dev Portfolio
+My Web Dev Portfolio
 
 ## Live at sandracowper.me
 ![website](/img/Websnapshot.png)
