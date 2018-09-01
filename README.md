@@ -3,4 +3,4 @@ Web Dev Portfolio
 
 ## Live at sandracowper.me
 ![website](/img/Websnapshot.png)
-Format: ![Alt Text] (url)
+
