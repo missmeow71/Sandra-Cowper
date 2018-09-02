@@ -228,7 +228,7 @@ body {
 }
 
 .panel>.card {
-    width: 15rem;
+    width: 16rem;
 }
 
 .card-img-top {
@@ -255,7 +255,7 @@ body {
 .card>.card-body>a {
     color: #A191A5;
     float: right;
-    margin-bottom: .5vh;
+    margin-bottom: 2vh;
 }
 
 .card>.card-body>a:hover {
