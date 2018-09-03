@@ -217,6 +217,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: blue;
+    width: 100%;
 }
 
 #projects h2 {
