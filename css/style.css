@@ -212,7 +212,8 @@ body {
 #projects .container {
     margin: 0px auto;
     padding: 5vh 0;
-    margin-left: 1%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #projects h2 {
