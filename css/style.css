@@ -226,15 +226,17 @@ body {
 #projects .card {
     background-color: rgba(211, 211, 211, 0.8);
 }
-
+.panel {
+    font-size: 10px;
+}
 .panel>.card {
-    width: 16rem;
+    width: 25em;
 }
 
 .card-img-top {
     /* width: 100%; */
     height: 15vw;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 
 .card>img {
