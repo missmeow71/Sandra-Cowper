@@ -212,6 +212,7 @@ body {
 #projects .container {
     margin: 0px auto;
     padding: 5vh 0;
+    margin-left: 5%;
 }
 
 #projects h2 {
