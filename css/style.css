@@ -78,7 +78,7 @@ body {
 }
 
 #home {
-    background: url('/img/beautiful-calm-clouds-206359.jpg') no-repeat center center fixed;
+    background: url('img/beautiful-calm-clouds-206359.jpg') no-repeat center center fixed;
     height: 100vh;
     position: relative;
     width: 100%;
@@ -200,7 +200,7 @@ body {
 }
 
 #projects {
-    background: url('/img/flower.jpg') no-repeat center center fixed;
+    background: url('img/flower.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
     width: 100%;
@@ -300,7 +300,7 @@ body {
 
 
 #contact {
-    background-image: url('/img/Astronomy-backlit-dark-735651.jpg');
+    background-image: url('img/Astronomy-backlit-dark-735651.jpg');
      background-size: cover;
      position: relative;
      width: 100%;
