@@ -1,6 +1,6 @@
 # Sandra-Cowper
 My Web Dev Portfolio
 
-## Live at sandracowper.me
+## Live at https://missmeow71.github.io/Sandra-Cowper/
 ![website](/img/Websnapshot.png)
 
