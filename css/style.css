@@ -229,7 +229,7 @@ body {
 }
 
 #projects .card {
-    background-color: rgba(211, 211, 211, 0.8);
+    background-color: #F4FAFF;
 }
 .panel {
     font-size: 10px;
@@ -260,7 +260,7 @@ body {
 }
 
 .card>.card-body>a {
-    color: #A191A5;
+    color: #008080;
     float: right;
     margin-bottom: 2vh;
 }
