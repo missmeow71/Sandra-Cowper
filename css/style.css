@@ -160,25 +160,25 @@ body {
 
 #about img#self {
     width: 100%;
-    border: 2px solid #464655;
+    border: 2px solid #008080;
     box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
 #about>.container>.row>.text-left>h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: calc(1.3vw + 1.3vh + .85vmin);
-    color: #3e3c5f;
+    color: #008080;
 }
 
 #about>.container>.row>.text-left>h2,
 #about>.container>.row>.text-right>h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: calc(1vw + 1vh + .85vmin);
-    color: #464655;
+    color: #008080;
 }
 
 .socmed a {
-    color: #464655;
+    color: #008080;
     margin: 0 1vw;
 }
 
@@ -251,7 +251,7 @@ body {
 .card>.card-body>h5 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2vw;
-    color: #3E3C5F;
+    color: #008080;
 }
 
 .card>.card-body>p {
@@ -290,7 +290,7 @@ body {
 }
 
 #tech .faicons {
-    color: #008080;
+    color: #ccc;
     margin: 2vw;
 }
 
