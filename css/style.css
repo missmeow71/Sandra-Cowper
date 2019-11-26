@@ -29,7 +29,7 @@ body {
 }
 
 .navbar {
-    background-color: #008080;
+    background-color: #F4FAFF;
     position: fixed;
     top: -100px;
     width: 100%;
@@ -42,7 +42,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 3vmax;
     font-weight: 100;
-    color: #ccc;
+    color: #000000;
     margin-left: 2vw;
     display: flex;
     flex-direction: row;
@@ -61,7 +61,7 @@ body {
 }
 
 .nav>li>.nav-link {
-    color: #d7cdcc;
+    color: #000000;
     padding: 0 0 15px 0;
 }
 
@@ -353,7 +353,7 @@ footer {
 }
 
 footer .container {
-    background-color: #008080;
+    background-color: #F4FAFF;
     height: 100%;
     max-width: 100vw;
     padding: 3vh 3vw;
