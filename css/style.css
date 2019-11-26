@@ -29,7 +29,7 @@ body {
 }
 
 .navbar {
-    background-color: #F4FAFF;
+    background-color: #ccc;
     position: fixed;
     top: -100px;
     width: 100%;
@@ -229,7 +229,7 @@ body {
 }
 
 #projects .card {
-    background-color: #F4FAFF;
+    background-color: rgba(211, 211, 211, 0.8);
 }
 .panel {
     font-size: 10px;
@@ -270,7 +270,7 @@ body {
 }
 
 #tech {
-    background-color: #F4FAFF;
+    background-color: #ccc;
     padding-top: 7vh;
 }
 
@@ -353,7 +353,7 @@ footer {
 }
 
 footer .container {
-    background-color: #F4FAFF;
+    background-color: #ccc;
     height: 100%;
     max-width: 100vw;
     padding: 3vh 3vw;
