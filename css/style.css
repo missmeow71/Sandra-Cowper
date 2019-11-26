@@ -187,7 +187,7 @@ body {
 }
 
 .socmed a:hover {
-    color: #11233e;
+    color: #008080;
 }
 
 #about p {
@@ -245,7 +245,7 @@ body {
 }
 
 .card>img {
-    border-bottom: 2px solid #a191a5;
+    border-bottom: 2px solid #008080;
 }
 
 .card>.card-body>h5 {
@@ -270,14 +270,14 @@ body {
 }
 
 #tech {
-    background-color: #008080;
+    background-color: #F4FAFF;
     padding-top: 7vh;
 }
 
 #tech h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: calc(3vw + 3vh + .75vmin);
-    color: #ccc;
+    color: #008080;
     text-transform: lowercase;
     text-shadow: 3px 3px 5px #000;
     padding: 3vh 0 0 3vw;
@@ -290,12 +290,12 @@ body {
 }
 
 #tech .faicons {
-    color: #ccc;
+    color: #008080;
     margin: 2vw;
 }
 
 #tech .faicons:hover {
-    color: #ccc;
+    color: #0000;
 }
 
 
@@ -329,14 +329,14 @@ body {
 }
 
 #contact .socmed a:hover {
-    color: #A191A5;
+    color: #008080;
 }
 
 #contact .btn {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vw;
     color: #ccc;
-    background-color: #A191A5;
+    background-color: #008080;
     margin-top: 2vh;
 }
 
@@ -361,12 +361,12 @@ footer .container {
 
 footer p {
     font-family: 'Open Sans', sans-serif;
-    color: #ccc;
+    color: #008080;
 }
 
 footer p a {
     font-family: 'Open Sans', sans-serif;
-    color: #A191A5;
+    color: #008080;
 }
 
 footer p a:hover {
@@ -375,7 +375,7 @@ footer p a:hover {
 }
 
 footer .footer-tech {
-    color: #ccc;
+    color: #008080;
 }
 
 footer .footer-tech .faicons {
