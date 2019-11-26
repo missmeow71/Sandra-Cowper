@@ -270,7 +270,7 @@ body {
 }
 
 #tech {
-    background-color: #a191a5;
+    background-color: #89E0E3;
     padding-top: 7vh;
 }
 
@@ -290,7 +290,7 @@ body {
 }
 
 #tech .faicons {
-    color: #3E3C5F;
+    color: #89E0E3;
     margin: 2vw;
 }
 
@@ -325,7 +325,7 @@ body {
 
 #contact .socmed {
     padding-bottom: 3vh;
-    color: #3E3C5F;
+    color: #89E0E3;
 }
 
 #contact .socmed a:hover {
@@ -342,7 +342,7 @@ body {
 
 #contact .btn:hover {
     color: #ccc;
-    background-color: #3E3C5F;
+    background-color: #89E0E3;
 }
 
 footer {
@@ -353,7 +353,7 @@ footer {
 }
 
 footer .container {
-    background-color: #3e3c5f;
+    background-color: #89E0E3;
     height: 100%;
     max-width: 100vw;
     padding: 3vh 3vw;
@@ -370,7 +370,7 @@ footer p a {
 }
 
 footer p a:hover {
-    color: #11233e;
+    color: #89E0E3;
     text-decoration: none;
 }
 
