@@ -2,6 +2,7 @@
 /*
 #000 Black
 #ccc lt grey
+#11114E Drk Midnight Blue
 */
 
 * {
@@ -39,14 +40,14 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 3vmax;
     font-weight: 100;
-    color: #000;
+    color: #11114E;
     margin-left: 2vw;
     display: flex;
     flex-direction: row;
 }
 
 .navbar-brand:hover {
-    color: #000;
+    color: #11114E;
 }
 
 .nav {
@@ -58,19 +59,19 @@ body {
 }
 
 .nav>li>.nav-link {
-    color: #000;
+    color: #11114E;
     padding: 0 0 15px 0;
 }
 
 .nav>li>a.nav-link:hover {
-    color: #000;
-    border-bottom: 2px solid #000;
+    color: #11114E;
+    border-bottom: 2px solid #11114E;
     padding: 0;
 }
 
 .nav>li>.nav-link:active {
-    color: #000;
-    border-bottom: 2px solid #000;
+    color:#11114E;
+    border-bottom: 2px solid #11114E;
     padding: 0;
 }
 
@@ -157,25 +158,25 @@ body {
 
 #about img#self {
     width: 100%;
-    border: 2px solid #000;
+    border: 2px solid #11114E;
     box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
 #about>.container>.row>.text-left>h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: calc(1.3vw + 1.3vh + .85vmin);
-    color: #000;
+    color: #11114E;
 }
 
 #about>.container>.row>.text-left>h2,
 #about>.container>.row>.text-right>h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: calc(1vw + 1vh + .85vmin);
-    color: #000;
+    color:#11114E;
 }
 
 .socmed a {
-    color: #000;
+    color: #11114E;
     margin: 0 1vw;
 }
 
@@ -184,7 +185,7 @@ body {
 }
 
 .socmed a:hover {
-    color: #000;
+    color: #11114E;
 }
 
 #about p {
@@ -242,13 +243,13 @@ body {
 }
 
 .card>img {
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #11114E;
 }
 
 .card>.card-body>h5 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2vw;
-    color: #000;
+    color: #11114E;
 }
 
 .card>.card-body>p {
@@ -257,7 +258,7 @@ body {
 }
 
 .card>.card-body>a {
-    color: #000;
+    color: #11114E;
     float: right;
     margin-bottom: 2vh;
 }
@@ -274,7 +275,7 @@ body {
 #tech h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: calc(3vw + 3vh + .75vmin);
-    color: #000;
+    color: #11114E;
     text-transform: lowercase;
     text-shadow: 3px 3px 5px #000;
     padding: 3vh 0 0 3vw;
@@ -287,12 +288,12 @@ body {
 }
 
 #tech .faicons {
-    color: #000;
+    color:#11114E;
     margin: 2vw;
 }
 
 #tech .faicons:hover {
-    color: #000;
+    color: #11114E;
 }
 
 
@@ -322,24 +323,24 @@ body {
 
 #contact .socmed {
     padding-bottom: 3vh;
-    color: #000;
+    color: #11114E;
 }
 
 #contact .socmed a:hover {
-    color: #000;
+    color: #11114E;
 }
 
 #contact .btn {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vw;
     color: #ccc;
-    background-color: #000;
+    background-color: #11114E;
     margin-top: 2vh;
 }
 
 #contact .btn:hover {
     color: #ccc;
-    background-color: #000;
+    background-color: #11114E;
 }
 
 footer {
@@ -358,21 +359,21 @@ footer .container {
 
 footer p {
     font-family: 'Open Sans', sans-serif;
-    color: #000;
+    color: #11114E;
 }
 
 footer p a {
     font-family: 'Open Sans', sans-serif;
-    color: #000;
+    color: #11114E;
 }
 
 footer p a:hover {
-    color: #000;
+    color: #11114E;
     text-decoration: none;
 }
 
 footer .footer-tech {
-    color: #000;
+    color: #11114E;
 }
 
 footer .footer-tech .faicons {
