@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 /*
-#0000 Black
+#000 Black
 #ccc lt grey
-#008080 Teal
 */
 
 * {
@@ -158,25 +157,25 @@ body {
 
 #about img#self {
     width: 100%;
-    border: 2px solid #008080;
+    border: 2px solid #000;
     box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
 #about>.container>.row>.text-left>h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: calc(1.3vw + 1.3vh + .85vmin);
-    color: #008080;
+    color: #000;
 }
 
 #about>.container>.row>.text-left>h2,
 #about>.container>.row>.text-right>h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: calc(1vw + 1vh + .85vmin);
-    color: #008080;
+    color: #000;
 }
 
 .socmed a {
-    color: #008080;
+    color: #000;
     margin: 0 1vw;
 }
 
@@ -185,7 +184,7 @@ body {
 }
 
 .socmed a:hover {
-    color: #008080;
+    color: #000;
 }
 
 #about p {
@@ -222,7 +221,7 @@ body {
     font-size: calc(3vw + 3vh + .75vmin);
     color: #ccc;
     text-transform: lowercase;
-    text-shadow: 3px 3px 5px #0000;
+    text-shadow: 3px 3px 5px #000;
     padding: 3vh 0 0 3vw;
 }
 
@@ -243,13 +242,13 @@ body {
 }
 
 .card>img {
-    border-bottom: 2px solid #008080;
+    border-bottom: 2px solid #000;
 }
 
 .card>.card-body>h5 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2vw;
-    color: #008080;
+    color: #000;
 }
 
 .card>.card-body>p {
@@ -258,7 +257,7 @@ body {
 }
 
 .card>.card-body>a {
-    color: #008080;
+    color: #000;
     float: right;
     margin-bottom: 2vh;
 }
@@ -275,9 +274,9 @@ body {
 #tech h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: calc(3vw + 3vh + .75vmin);
-    color: #008080;
+    color: #000;
     text-transform: lowercase;
-    text-shadow: 3px 3px 5px #0000;
+    text-shadow: 3px 3px 5px #000;
     padding: 3vh 0 0 3vw;
 }
 
@@ -288,12 +287,12 @@ body {
 }
 
 #tech .faicons {
-    color: #008080;
+    color: #000;
     margin: 2vw;
 }
 
 #tech .faicons:hover {
-    color: #0000;
+    color: #000;
 }
 
 
@@ -317,30 +316,30 @@ body {
     font-size: calc(3vw + 3vh + .75vmin);
     color: #ccc;
     text-transform: lowercase;
-    text-shadow: 3px 3px 5px #0000;
+    text-shadow: 3px 3px 5px #000;
     padding: 3vh 0 0 3vw;
 }
 
 #contact .socmed {
     padding-bottom: 3vh;
-    color: #008080;
+    color: #000;
 }
 
 #contact .socmed a:hover {
-    color: #008080;
+    color: #000;
 }
 
 #contact .btn {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vw;
     color: #ccc;
-    background-color: #008080;
+    background-color: #000;
     margin-top: 2vh;
 }
 
 #contact .btn:hover {
     color: #ccc;
-    background-color: #008080;
+    background-color: #000;
 }
 
 footer {
