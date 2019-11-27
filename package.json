@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/missmeow71/Sandra-Cowper/issues"
   },
-  "homepage": "https://github.com/missmeow71/Sandra-Cowper#readme"
+  "homepage": "https://github.com/missmeow71/Sandra-Cowper#readme",
+  "dependencies": {
+    "emailjs-com": "^2.4.1"
+  }
 }
