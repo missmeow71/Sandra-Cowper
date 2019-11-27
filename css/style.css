@@ -268,12 +268,12 @@ body {
     color: #7DA7CA;
 }
 
-#tech {
+#resume {
     background-color: #ccc;
     padding-top: 7vh;
 }
 
-#tech h2 {
+#resume h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: calc(3vw + 3vh + .75vmin);
     color: #11114E;
@@ -282,21 +282,11 @@ body {
     padding: 3vh 0 0 3vw;
 }
 
-#tech .container {
+#resume .container {
     display: flex;
     flex-flow: wrap;
     padding: 3vh 0 0 3vw;
 }
-
-#tech .faicons {
-    color:#11114E;
-    margin: 2vw;
-}
-
-#tech .faicons:hover {
-    color: #7DA7CA;
-}
-
 
 #contact {
      background-image: url('https://missmeow71.github.io/Sandra-Cowper/img/mountainnight.jpg');
