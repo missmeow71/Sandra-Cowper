@@ -3,6 +3,7 @@
 #000 Black
 #ccc lt grey
 #11114E Drk Midnight Blue
+ #7DA7CA Lt Steel Blue
 */
 
 * {
@@ -64,13 +65,13 @@ body {
 }
 
 .nav>li>a.nav-link:hover {
-    color: #11114E;
+    color: #7DA7CA;
     border-bottom: 2px solid #11114E;
     padding: 0;
 }
 
 .nav>li>.nav-link:active {
-    color:#11114E;
+    color: #7DA7CA;
     border-bottom: 2px solid #11114E;
     padding: 0;
 }
@@ -185,7 +186,7 @@ body {
 }
 
 .socmed a:hover {
-    color: #11114E;
+    color: #7DA7CA;
 }
 
 #about p {
@@ -293,7 +294,7 @@ body {
 }
 
 #tech .faicons:hover {
-    color: #11114E;
+    color: #7DA7CA;
 }
 
 
@@ -327,7 +328,7 @@ body {
 }
 
 #contact .socmed a:hover {
-    color: #11114E;
+    color: #7DA7CA;
 }
 
 #contact .btn {
@@ -340,7 +341,7 @@ body {
 
 #contact .btn:hover {
     color: #ccc;
-    background-color: #11114E;
+    background-color: #7DA7CA;
 }
 
 footer {
@@ -368,7 +369,7 @@ footer p a {
 }
 
 footer p a:hover {
-    color: #11114E;
+    color: #7DA7CA;
     text-decoration: none;
 }
 
