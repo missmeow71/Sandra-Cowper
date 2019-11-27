@@ -5,7 +5,7 @@ $(() => {
     $('[data-toggle="tooltip"]').tooltip()
 })
 
-// emailjs
+emailjs
 // window.onload = () => {
 //     document.querySelector('#contact-form').addEventListener('submit', (event) => {
 //         event.preventDefault()
@@ -17,6 +17,15 @@ $(() => {
 //             })
 //     })
 // }
+
+   window.onload = function () {
+       document.getElementById('contact-form').addEventListener('submit', function (event) {
+           event.preventDefault();
+           // generate the contact number value
+           this.contact_number.value = Math.random() * 100000 | 0;
+           emailjs.sendForm('contact_service', 'contact_template', this);
+       });
+   }
 
 var template_params = {
     "reply_to": "reply_to_value",
