@@ -313,25 +313,12 @@ body {
 }
 
 #contact .socmed {
-    padding-bottom: 3vh;
-    color: #11114E;
+    padding-bottom: 5vh;
+    color: #ccc;
 }
 
 #contact .socmed a:hover {
     color: #7DA7CA;
-}
-
-#contact .btn {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5vw;
-    color: #ccc;
-    background-color: #11114E;
-    margin-top: 2vh;
-}
-
-#contact .btn:hover {
-    color: #ccc;
-    background-color: #7DA7CA;
 }
 
 footer {
